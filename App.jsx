@@ -217,7 +217,7 @@ export default function App() {
       <div className="page">
         <HeroTitle animate={true} />
         <p className="hero-subtitle" id="hero-subtitle">
-          Next-gen<br />Legal Tech
+          A Legal Tech Company<br/>
         </p>
         <div className="founders" id="founders">
           <a className="founder-link" href="https://www.linkedin.com/in/frederik-holm-rasmussen/" target="_blank" rel="noopener noreferrer">Frederik Holm</a>
@@ -242,4 +242,5 @@ export default function App() {
     </>
   );
 }
+
 

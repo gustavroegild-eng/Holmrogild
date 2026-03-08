@@ -217,11 +217,11 @@ export default function App() {
       <div className="page">
         <HeroTitle animate={true} />
         <p className="hero-subtitle" id="hero-subtitle">
-          In a world of legal complexity<br />we build clarity through code
+          Next-gen<br />Legal Tech
         </p>
         <div className="founders" id="founders">
-          <a className="founder-link" href="https://www.linkedin.com/in/frederikholm/" target="_blank" rel="noopener noreferrer">Frederik Holm</a>
-          <a className="founder-link" href="https://www.linkedin.com/in/gustavrogild/" target="_blank" rel="noopener noreferrer">Gustav Røgild</a>
+          <a className="founder-link" href="https://www.linkedin.com/in/frederik-holm-rasmussen/" target="_blank" rel="noopener noreferrer">Frederik Holm</a>
+          <a className="founder-link" href="https://www.linkedin.com/in/gustav-røgild/" target="_blank" rel="noopener noreferrer">Gustav Røgild</a>
         </div>
       </div>
 
@@ -231,7 +231,7 @@ export default function App() {
             <span className="pname">Futaki</span>: Lucid corporate data overview
           </a>
           <a className="footer-product" href="https://meystro.dk" target="_blank" rel="noopener noreferrer">
-            <span className="pname">Meystro</span>: Tenancy law made accessible
+            <span className="pname">Tjekdinhusleje.dk</span>: Tenancy law made accessible
           </a>
           <a className="footer-product" href="https://arbitr.dk" target="_blank" rel="noopener noreferrer">
             <span className="pname">ArbitR</span>: Predicting litigation outcomes
@@ -242,3 +242,4 @@ export default function App() {
     </>
   );
 }
+

@@ -230,7 +230,7 @@ export default function App() {
           <a className="footer-product" href="https://futaki.dk" target="_blank" rel="noopener noreferrer">
             <span className="pname">Futaki</span>: Lucid corporate data overview
           </a>
-          <a className="footer-product" href="https://meystro.dk" target="_blank" rel="noopener noreferrer">
+          <a className="footer-product" href="https://tjekdinhusleje.dk" target="_blank" rel="noopener noreferrer">
             <span className="pname">Tjekdinhusleje.dk</span>: Tenancy law made accessible
           </a>
           <a className="footer-product" href="https://arbitr.dk" target="_blank" rel="noopener noreferrer">
@@ -242,5 +242,6 @@ export default function App() {
     </>
   );
 }
+
 
 

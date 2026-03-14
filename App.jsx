@@ -217,7 +217,7 @@ export default function App() {
       <div className="page">
         <HeroTitle animate={true} />
         <p className="hero-subtitle" id="hero-subtitle">
-          A Legal Tech Company<br/>
+          A Hybrid AI Company<br/>
         </p>
         <div className="founders" id="founders">
           <a className="founder-link" href="https://www.linkedin.com/in/frederik-holm-rasmussen/" target="_blank" rel="noopener noreferrer">Frederik Holm</a>
@@ -228,13 +228,13 @@ export default function App() {
       <footer className="site-footer">
         <div className="footer-products">
           <a className="footer-product" href="https://futaki.dk" target="_blank" rel="noopener noreferrer">
-            <span className="pname">Futaki</span>: Lucid corporate data overview
+            <span className="pname">Hugin</span>: Lucid corporate data overview
           </a>
           <a className="footer-product" href="https://tjekdinhusleje.dk" target="_blank" rel="noopener noreferrer">
             <span className="pname">Tjekdinhusleje.dk</span>: Tenancy law made accessible
           </a>
           <a className="footer-product" href="https://arbitr.dk" target="_blank" rel="noopener noreferrer">
-            <span className="pname">ArbitR</span>: Predicting litigation outcomes
+            <span className="pname">Brix</span>: Predicting parliament
           </a>
         </div>
         <span className="footer-copy">&copy; 2026 Holm &amp; Røgild</span>

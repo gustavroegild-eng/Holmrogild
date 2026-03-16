@@ -15,20 +15,12 @@ const HeroTitle = ({ animate }) => {
 
     const titleEl = titleRef.current;
     const glowEl = glowRef.current;
-    const text = 'HOLM & RØGILD';
+    const text = 'HRM';
 
     text.split('').forEach(char => {
       const span = document.createElement('span');
       span.className = 'letter';
-      if (char === '&') {
-        span.classList.add('amp');
-        span.innerHTML = '&amp;';
-      } else if (char === ' ') {
-        span.style.whiteSpace = 'pre';
-        span.textContent = ' ';
-      } else {
-        span.textContent = char;
-      }
+      span.textContent = char;
       titleEl.insertBefore(span, glowEl);
     });
 
@@ -217,31 +209,29 @@ export default function App() {
       <div className="page">
         <HeroTitle animate={true} />
         <p className="hero-subtitle" id="hero-subtitle">
-          A Hybrid AI Company<br/>
+          Hybrid AI Legal Tech Company
         </p>
         <div className="founders" id="founders">
-          <a className="founder-link" href="https://www.linkedin.com/in/frederik-holm-rasmussen/" target="_blank" rel="noopener noreferrer">Frederik Holm</a>
-          <a className="founder-link" href="https://www.linkedin.com/in/gustav-røgild/" target="_blank" rel="noopener noreferrer">Gustav Røgild</a>
+          <a className="founder-link" href="https://www.linkedin.com/in/frederikholm/" target="_blank" rel="noopener noreferrer">Frederik Holm</a>
+          <a className="founder-link" href="https://www.linkedin.com/in/gustavrogild/" target="_blank" rel="noopener noreferrer">Gustav Røgild</a>
+          <a className="founder-link" href="https://www.linkedin.com/in/tobiasmallet/" target="_blank" rel="noopener noreferrer">Tobias Mallet</a>
         </div>
       </div>
 
       <footer className="site-footer">
         <div className="footer-products">
           <a className="footer-product" href="https://futaki.dk" target="_blank" rel="noopener noreferrer">
-            <span className="pname">Hugin</span>: Lucid corporate data overview
+            <span className="pname">Mugin</span>: Lucid corporate data overview
           </a>
           <a className="footer-product" href="https://tjekdinhusleje.dk" target="_blank" rel="noopener noreferrer">
             <span className="pname">Tjekdinhusleje.dk</span>: Tenancy law made accessible
           </a>
           <a className="footer-product" href="https://arbitr.dk" target="_blank" rel="noopener noreferrer">
-            <span className="pname">Brix</span>: Predicting parliament
+            <span className="pname">Brix</span>: Predicting litigation outcomes
           </a>
         </div>
-        <span className="footer-copy">&copy; 2026 Holm &amp; Røgild</span>
+        <span className="footer-copy">&copy; 2026 HRM</span>
       </footer>
     </>
   );
 }
-
-
-

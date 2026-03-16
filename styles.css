@@ -64,7 +64,7 @@ a {
 .hero-title {
   font-family: var(--font-display);
   font-weight: 900;
-  font-size: clamp(2.2rem, 6vw, 5.5rem);
+  font-size: clamp(3.3rem, 9vw, 8.25rem);
   white-space: nowrap;
   letter-spacing: -0.02em;
   text-transform: uppercase;
@@ -81,10 +81,6 @@ a {
 }
 
 .hero-title .dot {
-  color: var(--blue);
-}
-
-.hero-title .amp {
   color: var(--blue);
 }
 
